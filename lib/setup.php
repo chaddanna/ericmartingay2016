@@ -64,6 +64,22 @@ function widgets_init() {
   ]);
 
   register_sidebar([
+    'name'          => __('Logo', 'sage'),
+    'id'            => 'logo-header',
+    'before_widget' => '',
+    'after_widget'  => ''
+  ]);
+
+  register_sidebar([
+    'name'          => __('Header', 'sage'),
+    'id'            => 'sidebar-header',
+    'before_widget' => '<section class="widget %1$s %2$s">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ]);
+
+  register_sidebar([
     'name'          => __('Footer', 'sage'),
     'id'            => 'sidebar-footer',
     'before_widget' => '<section class="widget %1$s %2$s">',

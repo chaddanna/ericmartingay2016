@@ -1,0 +1,11 @@
+.btn-default, .search-form .search-submit {
+  background-color: rgb(253, 176, 42);
+  border: 1px solid darken(rgb(253, 176, 42), 5%);
+  color: rgb(255, 255, 255);
+}
+
+.btn-default.active, .btn-default:active, .btn-default:hover, .open>.btn-default.dropdown-toggle, .search-form .active.search-submit, .search-form .open>.dropdown-toggle.search-submit, .search-form .search-submit:active, .search-form .search-submit:hover {
+  background-color: darken(rgb(253, 176, 42), 10%);
+  border: 1px solid darken(rgb(253, 176, 42), 10%);
+  color: rgb(255, 255, 255);
+}

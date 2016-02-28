@@ -1,0 +1,42 @@
+header.banner {
+  background: rgb(51, 51, 51);
+
+  .container {
+    .brand {
+      width: 14%;
+      float: left;
+
+      img {
+        height: auto;
+        max-width: 120px !important;
+        width: 100%;
+      }
+    }
+
+    > div {
+      display: inline-block;
+      padding-top: 7%;
+      width: 86%;
+    }
+  }
+}
+
+// Navs
+.nav-primary {
+  .nav {
+    margin-bottom: 0;
+    padding-left: 0; // Override default ul/ol
+    list-style: none;
+    display: inline-block;
+    @include clearfix;
+
+    > li {
+      position: relative;
+      display: inline-block;
+    }
+  }
+
+  .widget_search{
+    display: inline-block;
+  }
+}

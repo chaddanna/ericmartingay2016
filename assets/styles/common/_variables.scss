@@ -1,3 +1,7 @@
+// Font families
+$font-family-sans-serif:  'Open Sans', Helvetica, Arial, sans-serif !default;
+$headings-font-weight:    800 !default;
+
 // Glyphicons font path
 $icon-font-path:        "../fonts/";
 
@@ -6,4 +10,4 @@ $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Colors
-$brand-primary:         #27ae60;
+$brand-primary:         rgb(253, 176, 42);
